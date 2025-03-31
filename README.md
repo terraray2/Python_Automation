@@ -1,3 +1,16 @@
+**Webscraper, World population**
+
+Web scraping using Python and the BeautifulSoup library. It extracts data from the Worldometer website on world population by country, cleans the data, and saves it to a CSV file. 
+
+# data collection
+# manipulation techniques for data analysis
+# visualization
+
+**Description**
+This project utilizes Python libraries like requests, BeautifulSoup, and pandas to scrape population data from the Worldometer website. It extracts information such as country name, population, yearly change, etc., organizes it into a pandas DataFrame, and then saves it as a CSV file. This data can be used for further analysis or visualization.
+
+----------------------------------------------------------------------
+
 **Google Drive File Sorter**
 
 **Description:**
@@ -25,3 +38,5 @@ Once authenticated, the script will organize the files in the specified "FileSor
 **Acknowledgements:**
 
 Google Colab team for providing the platform to easily interact with Google Drive using Python
+
+
