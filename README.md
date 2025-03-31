@@ -1,8 +1,8 @@
-# Automated Web Scraper: Bitcoin Price/HR
+# Automated Web Scraper, Bitcoin Price (Hourly Cadence)
 
 This Python script automates the process of scraping the current price of Bitcoin from CoinMarketCap and saving it to a CSV file on Google Drive. It uses the requests library to fetch the website's HTML, BeautifulSoup to parse the HTML and extract the price, and pandas to create a DataFrame for storing the data. The script is designed to run continuously in a Google Colab environment, updating the CSV file every hour. This provides a convenient way to track the price of Bitcoin over time for analysis or personal use.
 
-# Webscraper, World population
+# Web Scraper, World Population
 
 Web scraping using Python and the BeautifulSoup library. It extracts data from the Worldometer website on world population by country, cleans the data, and saves it to a CSV file. 
 
