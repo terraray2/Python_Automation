@@ -11,7 +11,6 @@ This project utilizes Python libraries like requests, BeautifulSoup, and pandas 
 
 # Google Drive File Sorter
 
-**Description:**
 This Python script helps organize files in Google Drive into specific folders based on file types. It supports sorting of CSV files, text files, and image files into their respective directories. This project is particularly useful for data analysts who frequently handle various types of data files and need an automated way to keep their Google Drive organized.
 
 **Contents:**
