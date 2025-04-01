@@ -1,3 +1,37 @@
+# MLK "I Have a Dream" Speech Analysis
+
+This project analyzes the word frequency in Martin Luther King Jr.'s "I Have a Dream" speech. It uses Python and several libraries to fetch the speech from a website, clean the text, and count the occurrences of each word. The results are then saved to a CSV file.
+
+## How it Works
+
+1. **Fetching the Speech:**
+   - The code uses the `requests` library to fetch the HTML content of the webpage containing the speech.
+   - The `BeautifulSoup` library is used to parse the HTML and extract the relevant text.
+
+2. **Cleaning the Text:**
+   - Newline characters and punctuation are removed from the text.
+   - The text is converted to lowercase for case-insensitive analysis.
+   - The text is split into individual words.
+
+3. **Analyzing Word Frequency:**
+   - A pandas DataFrame is created from the list of words.
+   - The `value_counts()` method is used to count the occurrences of each word.
+
+4. **Saving the Results:**
+   - The word counts are saved to a CSV file in Google Drive.
+
+## Libraries Used
+
+- `requests`: For fetching web pages.
+- `BeautifulSoup`: For parsing HTML content.
+- `re`: For regular expressions (used for text cleaning).
+- `pandas`: For data manipulation and analysis.
+- `google.colab.drive`: To mount Google Drive (if running in Google Colab).
+
+## Usage
+
+1. Make sure you have the necessary libraries installed. You can install them using `pip`:
+
 # Automated Web Scraper, Bitcoin Price (Hourly Cadence)
 
 This Python script automates the process of scraping the current price of Bitcoin from CoinMarketCap and saving it to a CSV file on Google Drive. It uses the requests library to fetch the website's HTML, BeautifulSoup to parse the HTML and extract the price, and pandas to create a DataFrame for storing the data. The script is designed to run continuously in a Google Colab environment, updating the CSV file every hour. This provides a convenient way to track the price of Bitcoin over time for analysis or personal use.
