@@ -99,7 +99,9 @@ Run the script. It will prompt you to authenticate your Google Drive.
 
 Once authenticated, the script will organize the files in the specified "FileSorter" directory on your Google Drive.
 
-**Acknowledgements:**
+## Acknowledgements
+
+This project was completed as part of the Data Analysis with Python course on Analyst Builder. I would like to thank Alex The Analyst and the Analyst Builder team for providing the resources and guidance for this project. You can learn more about Analyst Builder at [https://analystbuilder.com/](https://analystbuilder.com/).
 
 Google Colab team for providing the platform to easily interact with Google Drive using Python
 
